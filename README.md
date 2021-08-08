@@ -9,3 +9,10 @@ My dark stupid image:
 
 # Other motiviations
 This repo is meant for educational purposes, for me and for everyone else. Hopefully you will find it fun as I do.
+
+# Installation
+Clone this repo locally, then use:
+```
+cd /path/to/local/repo
+pip3 install -e .
+```

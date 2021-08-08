@@ -1,2 +1,4 @@
 env
 .vscode
+img2img.egg-info
+*__pycache__
