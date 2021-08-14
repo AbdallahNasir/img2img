@@ -1,3 +1,0 @@
-opencv-python>=4
-tensorflow>=2
-numpy

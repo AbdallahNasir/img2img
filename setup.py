@@ -6,5 +6,16 @@ setup(
     description="",
     version="0.1",
     packages=['img2img'],
-    zip_safe=False
+    zip_safe=False,
+    entry_points={
+            "console_scripts": [
+                "img2img-train = img2img_cli.train:main",
+                "img2img-synthesize = img2img_cli.synthesize:main",
+            ]
+        },
+    install_requires=[
+        "opencv-python>=4",
+        "tensorflow>=2",
+        "numpy~=1.19.2"
+    ]
 )
